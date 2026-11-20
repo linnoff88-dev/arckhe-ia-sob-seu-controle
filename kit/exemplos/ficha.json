@@ -1,0 +1,15 @@
+{
+  "objetivo": "Resumir um relatório fictício com verificação das contas",
+  "dados": "sinteticos",
+  "execucao": "local",
+  "modelo": "preencher-modelo-testado",
+  "ferramentas": "nenhuma",
+  "revisao": "humana",
+  "acesso": "somente-dispositivo",
+  "offline_necessario": true,
+  "evidencias": {
+    "sem_rede": false,
+    "resultado_conferido": false,
+    "permissoes_conferidas": false
+  }
+}

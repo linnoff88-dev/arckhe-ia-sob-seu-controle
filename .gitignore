@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+*.log
+resultados/
+node_modules/
+
+i18n/*.raw

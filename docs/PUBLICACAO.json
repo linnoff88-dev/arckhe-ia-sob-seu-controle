@@ -1,0 +1,31 @@
+{
+  "data": "2026-11-15",
+  "repositorio": "https://github.com/inematds/ia-sob-seu-controle",
+  "guia": "https://inematds.github.io/ia-sob-seu-controle/guia/",
+  "idiomas": [
+    "pt",
+    "en",
+    "es"
+  ],
+  "pages_http": [
+    200,
+    200,
+    200
+  ],
+  "portal_commit": "051e723b9e9a68e238f052a1d7005cf7ea0f9a64",
+  "buscas_commit": "4db0a892f046de6a697885b9b30374267f388dfe",
+  "pro_commit": "1b775e4a521d7e39cc482f61883ceaac10f42e1e",
+  "telegram": {
+    "grupo": "INEMA.INFRA",
+    "topico": "https://t.me/c/2491219310/1948",
+    "menu_msg": 1963,
+    "mensagens_conferidas": 14,
+    "menu_conferido": true
+  },
+  "testes_kit": 9,
+  "revisao_guia": {
+    "nota": 9,
+    "veredito": "aprovado"
+  },
+  "videos": "Em produção; o guia recebe o vídeo explicativo quando publicado."
+}
