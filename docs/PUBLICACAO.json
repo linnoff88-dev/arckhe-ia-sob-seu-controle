@@ -1,7 +1,7 @@
 {
   "data": "2026-11-15",
-  "repositorio": "https://github.com/inematds/ia-sob-seu-controle",
-  "guia": "https://inematds.github.io/ia-sob-seu-controle/guia/",
+  "repositorio": "https://github.com/linnoff88-dev/ia-sob-seu-controle",
+  "guia": "https://linnoff88-dev.github.io/
   "idiomas": [
     "pt",
     "en",
@@ -16,7 +16,7 @@
   "buscas_commit": "4db0a892f046de6a697885b9b30374267f388dfe",
   "pro_commit": "1b775e4a521d7e39cc482f61883ceaac10f42e1e",
   "telegram": {
-    "grupo": "INEMA.INFRA",
+    "grupo": "ARCKHÉ.INFRA",
     "topico": "https://t.me/c/2491219310/1948",
     "menu_msg": 1963,
     "mensagens_conferidas": 14,

@@ -1,6 +1,6 @@
 # IA bajo tu control
 
-[![Tu IA bajo control](guia/assets/banner-es.jpg)](https://inematds.github.io/ia-sob-seu-controle/guia/es/)
+[![Tu IA bajo control](guia/assets/banner-es.jpg)](https://linnoff88-dev.github.io/
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
@@ -12,14 +12,14 @@ Este repo ofrece un kit de decisión y verificación. Te ayuda a evaluar por sep
 
 ## Guía de uso
 
-**https://inematds.github.io/ia-sob-seu-controle/guia/es/**
+**https://linnoff88-dev.github.io/
 
 ## Empezar
 
 Python 3.10+ y Git, sin dependencias externas.
 
 ```bash
-git clone https://github.com/inematds/ia-sob-seu-controle.git
+git clone https://github.com/linnoff88-dev/ia-sob-seu-controle.git
 cd ia-sob-seu-controle
 python3 -m unittest discover -s tests -v
 python3 scripts/conferir.py kit/exemplos/ficha.json

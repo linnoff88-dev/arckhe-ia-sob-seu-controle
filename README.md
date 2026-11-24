@@ -1,4 +1,4 @@
-﻿# IA sob seu controle
+# IA sob seu controle
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,7 +6,7 @@
 </div>
 
 
-[![Sua IA sob controle](guia/assets/banner.jpg)](https://inematds.github.io/ia-sob-seu-controle/guia/)
+[![Sua IA sob controle](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/
 
 **ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
 
@@ -18,14 +18,14 @@ Este repo entrega um kit de decisÃ£o e verificaÃ§Ã£o. Ele ajuda vocÃª a 
 
 ## Guia de uso
 
-**https://inematds.github.io/ia-sob-seu-controle/guia/**
+**https://linnoff88-dev.github.io/
 
 ## ComeÃ§ar
 
 Python 3.10+ e Git, sem dependÃªncias externas.
 
 ```bash
-git clone https://github.com/inematds/ia-sob-seu-controle.git
+git clone https://github.com/linnoff88-dev/ia-sob-seu-controle.git
 cd ia-sob-seu-controle
 python3 -m unittest discover -s tests -v
 python3 scripts/conferir.py kit/exemplos/ficha.json

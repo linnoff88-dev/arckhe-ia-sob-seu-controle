@@ -1,6 +1,6 @@
 # AI under your control
 
-[![Your AI under your control](guia/assets/banner-en.jpg)](https://inematds.github.io/ia-sob-seu-controle/guia/en/)
+[![Your AI under your control](guia/assets/banner-en.jpg)](https://linnoff88-dev.github.io/
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
@@ -12,14 +12,14 @@ This repo provides a decision and verification kit. It helps you assess privacy,
 
 ## User guide
 
-**https://inematds.github.io/ia-sob-seu-controle/guia/en/**
+**https://linnoff88-dev.github.io/
 
 ## Getting started
 
 Python 3.10+ and Git, with no external dependencies.
 
 ```bash
-git clone https://github.com/inematds/ia-sob-seu-controle.git
+git clone https://github.com/linnoff88-dev/ia-sob-seu-controle.git
 cd ia-sob-seu-controle
 python3 -m unittest discover -s tests -v
 python3 scripts/conferir.py kit/exemplos/ficha.json

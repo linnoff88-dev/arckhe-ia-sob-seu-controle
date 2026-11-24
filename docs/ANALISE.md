@@ -32,7 +32,7 @@ A contribuição prática é mostrar que interface, modelo e infraestrutura pode
 
 ## O projeto novo
 
-Em vez de repetir os kits de implantação já publicados pelo INEMA, este repositório oferece um registro de decisões e um exercício verificável. “IA sob seu controle” é o nome deste método editorial: declarar o ambiente, limitar o acesso e conferir a entrega.
+Em vez de repetir os kits de implantação já publicados pelo ARCKHÉ, este repositório oferece um registro de decisões e um exercício verificável. “IA sob seu controle” é o nome deste método editorial: declarar o ambiente, limitar o acesso e conferir a entrega.
 
 O kit contém uma ficha JSON local, um conferidor sem dependências externas, um relatório fictício com gabarito e um prompt de revisão. O programa lê apenas o arquivo que você indicar. Ele não executa IA, não contrata serviços, não instala modelos e não inspeciona o computador. Um estado `ficha-conferida` comprova consistência das declarações, não a realidade da configuração.
 
@@ -40,10 +40,10 @@ O kit contém uma ficha JSON local, um conferidor sem dependências externas, um
 
 Relatório fictício: janeiro, receita R$ 120 mil e despesa R$ 90 mil; fevereiro, receita R$ 100 mil e despesa R$ 110 mil. Resultados: +R$ 30 mil, −R$ 10 mil e +R$ 20 mil no bimestre. A receita caiu 16,67% de janeiro para fevereiro, arredondando a duas casas. A pessoa pede a resposta ao modelo, pede revisão e compara as contas com o gabarito. Isso testa esse caso específico, não toda a capacidade do modelo.
 
-## Relação com outros projetos INEMA
+## Relação com outros projetos ARCKHÉ
 
-- [IA privada em 3 níveis](https://inematds.github.io/ia-privada-3-niveis/guia/): implantação, hardware e acesso remoto.
-- [IA sem censura defensiva](https://inematds.github.io/ia-sem-censura-defensiva/guia/): modelos com menos recusas em tarefas defensivas e laboratório.
+- [IA privada em 3 níveis](https://linnoff88-dev.github.io/ implantação, hardware e acesso remoto.
+- [IA sem censura defensiva](https://linnoff88-dev.github.io/ modelos com menos recusas em tarefas defensivas e laboratório.
 - Este projeto: análise e ficha de decisões antes de usar dados reais; não duplica os instaladores anteriores.
 
 ## Documentação primária consultada
@@ -58,7 +58,7 @@ Consulta em 15/11/2026. Nenhum preço, desconto, taxa de acerto, velocidade ou t
 
 ## Leitura integral da fonte
 
-O áudio público de 26min29s foi baixado pelo inemavox e transcrito localmente com Whisper large-v3 (514 segmentos). A transcrição automática fica no output privado da produção; nomes de produtos foram conferidos nos links oficiais. O autor explicita no nível cinco que menos censura e privacidade são coisas diferentes — esta distinção vem da própria aula, não é uma correção de algo que ela ignorou. Na demonstração do celular, o modelo identifica o autor como outra pessoa: um exemplo útil de que funcionar offline não demonstra conhecimento factual correto.
+O áudio público de 26min29s foi baixado pelo ARCKHÉvox e transcrito localmente com Whisper large-v3 (514 segmentos). A transcrição automática fica no output privado da produção; nomes de produtos foram conferidos nos links oficiais. O autor explicita no nível cinco que menos censura e privacidade são coisas diferentes — esta distinção vem da própria aula, não é uma correção de algo que ela ignorou. Na demonstração do celular, o modelo identifica o autor como outra pessoa: um exemplo útil de que funcionar offline não demonstra conhecimento factual correto.
 
 Há também uma distinção essencial no nível três: a VPS demonstrada mantém o agente, mas a inferência continua num provedor por API; ela não passa a ser local ou offline só porque a interface está na VPS. O autor propõe conferir acesso de saída do servidor aos dispositivos e testar regras, e não apenas instalar Tailscale. Este projeto recomenda os kits de implantação existentes para aprofundar essa parte.
 
