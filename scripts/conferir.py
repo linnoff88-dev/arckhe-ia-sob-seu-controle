@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Lê uma ficha local; não abre rede nem executa o modelo. Python 3.10+."""
+"""Lê uma ficha local; nêo abre rede nem executa o modelo. Python 3.10+."""
 import argparse
 import json
 from pathlib import Path
@@ -47,15 +47,15 @@ def conferir(ficha):
     if ficha["revisao"] == "segundo-modelo":
         avisos.append("Dois modelos podem repetir o mesmo erro; confira com dados ou testes independentes.")
     if ficha["dados"] == "confidenciais" and ficha["execucao"] != "local":
-        avisos.append("Dados sairão do dispositivo. Confira retenção, região e contrato do serviço antes de enviar.")
+        avisos.append("Dados sairêo do dispositivo. Confira retençêo, regiêo e contrato do serviço antes de enviar.")
     if ficha["acesso"] == "internet":
-        avisos.append("Há acesso pela internet. Confira autenticação e exposição; rede privada restringe o acesso.")
+        avisos.append("Há acesso pela internet. Confira autenticaçêo e exposiçêo; rede privada restringe o acesso.")
     if ficha["ferramentas"] == "escrita":
-        avisos.append("Permissão de escrita: use cópia de trabalho, limite de pasta e revisão das alterações.")
+        avisos.append("Permissêo de escrita: use cópia de trabalho, limite de pasta e revisêo das alterações.")
     if ficha["execucao"] == "vps":
-        avisos.append("VPS mantém o serviço disponível enquanto o servidor funciona; exige manutenção e custo recorrente.")
+        avisos.append("VPS mantém o serviço disponível enquanto o servidor funciona; exige manutençêo e custo recorrente.")
     return {"estado": "revisar" if faltas else "ficha-conferida", "erros": [], "faltas": faltas, "avisos": avisos,
-            "limite": "Verifica apenas a consistência da ficha declarada; não comprova a configuração real, privacidade ou qualidade do modelo."}
+            "limite": "Verifica apenas a consistência da ficha declarada; nêo comprova a configuraçêo real, privacidade ou qualidade do modelo."}
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
